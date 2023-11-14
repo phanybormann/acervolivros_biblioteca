@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link 
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Alterar Dados de Itens no Acervo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html">Página inicial</b>
+            <a href="create.html">Sistema</a>
+            <a href="cadastrar.html">Cadastrar</a>
+            <b>Alterar</b>
+            <a href="listar.html">Listar</a>
+            <a href="pesquisar.html">Pesquisar</a>
+        </div>
+        <div class="main">
+            <div>
+                <h1 class="animate__animated animate__bounce">Alterar Dados de Itens no Acervo</h1>
+                <p>Utilize o formulário abaixo para alterar os dados de itens previamente cadastrados no acervo da livraria.</p>
+                
+                <div class="form">
+
+                    <form action="processar_alteracao.php" method="post">
+                        <label for="id">ID do Item a Ser Alterado:</label>
+                        <input type="text" id="id" name="id" required><br>
+
+                        <label for="titulo">Novo Título:</label>
+                        <input type="text" id="titulo" name="titulo" required>
+                        
+
+
+                        <input type="submit" value="Alterar Dados">
+                    </form>
+                </div>
+            </div>
+            <div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://lottie.host/fc0da0fb-b0fb-4a3b-bf63-b686fcce4299/0dfLAjwp71.json" background="#FFFFFF" speed="1" style="width: 400px; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

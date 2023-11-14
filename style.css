@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    display: flex;
+    
+    padding:0;
+    margin: 0;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 2px 4px 4px rgba(71, 71, 71, 0.082);
+    padding: 0;
+}
+
+.header b{
+    padding: 16px 24px;
+    background-color: rgb(0, 255, 170);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header a{
+    padding: 16px 24px;
+    text-decoration: none;
+    color:black;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.main div:nth-child(1){
+    padding-top: 80px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main div:nth-child(1) p, h1{
+    width: 400px;
+}
+
+.main div:nth-child(2){
+   display: flex;
+   padding-top: 80px;
+   align-items: flex-end;
+   justify-content: center;
+    z-index: -1;
+}
+
+
+.forma{
+    
+    display: flex;
+ 
+    
+    z-index: -1;
+}
+
+.forma  form{
+    width: 400px;
+    height: auto;
+    padding:40px  45px 85px 45px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    background-color: rgba(255, 245, 232, 0.623);
+    box-shadow: 4px 4px 4px #acacac;
+    border-radius: 14px;
+}
+
+.forma form input{
+    border-radius: 4px;
+    border: 1px solid #acacac;
+    height: 24px;
+}
+
+.funcionalidades  a{
+    text-decoration: none;
+    color:black;
+}
